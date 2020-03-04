@@ -29,6 +29,7 @@ img, ul, a, h1 {
 
 #header {
     border-bottom: 1px solid #2f2f2f;
+    height: 15vh;
 }
 
 #header h1 {
@@ -37,7 +38,7 @@ img, ul, a, h1 {
 
 #banner {
     text-align: center;
-    height: 80vh;
+    height: 85vh;
     background-image: url('../img/banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -48,9 +49,74 @@ img, ul, a, h1 {
 
 #banner p {
     padding-top: 200px;
+    margin-top: 0;
+}
+
+#banner h2 {
+    text-transform: uppercase;
+    font-size: 46px;
+    margin: 20px 0 26px 0;
 }
 
 #banner button {
-    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 0 25px;
+    border-radius: 15px;
     height: 40px;
+    font-weight: bolder;
+}
+
+#images {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around
+}
+
+#images button {
+    height: 40px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+#images > div {
+    height: 270px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#image1 {
+    background: url("../img/product-1.jpg");
+    background-size: cover;
+}
+#image2 {
+    background: url("../img/product-2.jpg");
+    background-size: cover;
+}
+#image3 {
+    background: url("../img/product-3.jpg");
+    background-size: cover;
+}
+#image4 {
+    background: url("../img/product-4.jpg");
+    background-size: cover;
+}
+#image5 {
+    background: url("../img/product-5.jpg");
+    background-size: cover;
+}
+#image6 {
+    background: url("../img/product-6.jpg");
+    background-size: cover;
+}
+
+.btn:hover {
+    /* background-color: #fe2a21; */
+    background-color: #8e0a71;
+    border-color: #8e0a71;
+    color: #efefef;
 }
